@@ -1,0 +1,37 @@
+ul.expyedu {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+ul.expyedu li div.expyedu-item {
+    display: flex;
+    align-items: flex-start;
+    margin: 12px 0;
+}
+
+div.logo-img-container a img {
+    width: 4em;
+    margin-right: 12px;
+}
+
+div.expyedu-item-details {
+    width: 100%;
+}
+
+div.expyedu-item-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+div.expyedu-item-title h3  {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+div.expyedu-item-details p {
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0;
+}

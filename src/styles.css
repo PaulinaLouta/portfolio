@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+.mat-card {
+    border-radius: 12px;
+    margin: 32px 20px;
+    padding: 32px;  
+}
+
+.mat-card#first-card {
+    padding: 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+}
+
+.bi {
+    color:black;
+    font-weight: 800;
+    display:block;
+    height: 2.4rem;
+    width: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+}
+
+.bi:hover,.bi-hover {
+    background: rgb(172, 172, 172)
+}
+
+div#info-data {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.items-list li div.data-container {
+    flex-grow: 1;
+}
+
+.card-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.card-titles h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
