@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ExperienciaYEducacionComponent } from './components/experiencia-y-educacion/experiencia-y-educacion.component';
 import { ExpYEduItemComponent } from './components/exp-y-edu-item/exp-y-edu-item.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ExpYEduItemComponent } from './components/exp-y-edu-item/exp-y-edu-item
     HeaderComponent,
     AcercaDeComponent,
     ExperienciaYEducacionComponent,
-    ExpYEduItemComponent
+    ExpYEduItemComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
