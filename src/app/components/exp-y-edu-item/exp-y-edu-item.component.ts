@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { EXPERIENCIAS } from '../mock-exp';
+import { ItemExp } from '../item-exp';
+
 
 @Component({
   selector: 'app-exp-y-edu-item',
@@ -6,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./exp-y-edu-item.component.css']
 })
 export class ExpYEduItemComponent implements OnInit {
+
+  
 
   constructor() { }
 
